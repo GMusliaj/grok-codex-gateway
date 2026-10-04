@@ -1,0 +1,81 @@
+Grok Codex Gateway
+Copyright 2026 Gezim Musliaj
+
+This product is licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+The full license text is in the LICENSE file at the root of this
+repository. The readable attribution for people and third-party
+software is in CREDITS.md.
+
+This license covers the original source, tests, and documentation in
+this repository. It does not relicense third-party packages, and it
+does not grant any right to the names, marks, or products of their
+owners. Codex, OpenAI, Grok, Grok Bot, xAI, Anthropic, and the Model
+Context Protocol name remain the property of their respective owners.
+
+Third-party software distributed with, or required to build, this
+gateway keeps the license stated by that software. Versions below are
+the ones pinned in package-lock.json. Their copyright notices and
+license texts ship inside node_modules and must travel with any
+redistribution of those packages.
+
+Apache License, Version 2.0, with the MCP relicensing notice quoted
+in CREDITS.md:
+
+  @modelcontextprotocol/server 2.3.0
+  @modelcontextprotocol/client 2.3.0
+  @modelcontextprotocol/core 2.3.0
+  @modelcontextprotocol/node 2.1.1
+  Copyright holders and authors include Anthropic, PBC.
+  https://github.com/modelcontextprotocol/typescript-sdk
+
+  openai 7.27.0
+  Copyright OpenAI.
+  https://github.com/openai/openai-node
+
+MIT License:
+
+  zod 4.6.5
+  Copyright (c) 2025 Colin McDonnell
+
+  hono 4.13.13
+  Copyright (c) 2021 - present, Yusuke Wada and Hono contributors
+
+  @hono/node-server 1.19.17
+  Copyright (c) 2022 - present, Yusuke Wada and Hono contributors
+
+  jose 6.2.12
+  Copyright (c) 2018 Filip Skokan
+
+  eventsource 3.0.7
+  Copyright (c) EventSource GitHub organisation
+
+  eventsource-parser 3.1.1
+  Copyright (c) 2026 Espen Hovlandsdal
+
+  cross-spawn 7.0.6
+  Copyright (c) 2018 Made With MOXY Lda
+
+  pkce-challenge 5.0.1
+  Copyright (c) 2019, as stated in that package's LICENSE
+  (the copyright holder line is blank)
+
+  shebang-command 2.0.0
+  Copyright (c) Kevin Mårtensson
+
+  shebang-regex 3.0.0
+  Copyright (c) Sindre Sorhus
+
+  path-key 3.1.1
+  Copyright (c) Sindre Sorhus
+
+ISC License:
+
+  which 2.0.2
+  Copyright (c) Isaac Z. Schlueter and Contributors
+
+  isexe 2.0.0
+  Copyright (c) Isaac Z. Schlueter and Contributors

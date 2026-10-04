@@ -1,0 +1,29 @@
+{
+  "name": "grok-codex-gateway",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP gateway that lets Grok Bot run Codex on eligible projects on this Mac",
+  "author": "Gezim Musliaj <gmusliaj@gmail.com>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=24.21.0 <25"
+  },
+  "scripts": {
+    "setup": "node src/main.mjs setup",
+    "projects": "node src/main.mjs projects",
+    "start": "node src/main.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/main.mjs && npm test",
+    "audit": "npm audit --include=dev"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/node": "2.1.1",
+    "@modelcontextprotocol/server": "2.3.0",
+    "openai": "7.27.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.3.0"
+  }
+}

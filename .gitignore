@@ -1,0 +1,9 @@
+node_modules/
+.tmp/
+/CHANGELOG.md
+.env
+.env.*
+!.env.example
+config.local.json
+*.log
+*.token
